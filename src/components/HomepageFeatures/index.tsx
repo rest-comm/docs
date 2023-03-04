@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 type FeatureItem = {
   title: string;
@@ -10,32 +11,34 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'WEB',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The frontend application of rest.com.sg. Built using 
+        <b> Next.js</b>, <b>TypeScript</b>, <b>ChakraUI</b>, and <b>Storybook. </b>
+        <Link href="/docs/web">Get started with <code>WEB</code>.</Link>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'SERVER',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The backend application of rest.com.sg. Built using 
+        <b> Nest.js</b> and <b>TypeScript. </b>
+        <Link href="/docs/server">Get started with <code>SERVER</code>.</Link>
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'DOCS',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The official documentation of rest.com.sg. Built with <b>Docusaurus. </b>
+        <Link href="/docs/docusaurus-intro">Learn how <code>Docusaurus</code> works.</Link>
       </>
     ),
   },
