@@ -90,8 +90,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Configure `.env` Secrets
 
-Create `.env.dev` and `.env.dev` with the following attributes:
-```
+Create `.env.dev` and `.env.test` with the following attributes:
+```typescript title=.env.dev/.env.test
 TYPEORM_CONNECTION =
 TYPEORM_HOST =
 TYPEORM_USERNAME =

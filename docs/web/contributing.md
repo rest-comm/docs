@@ -45,17 +45,14 @@ It is important to follow the recommended git workflow to ensure consistency and
 
 **Example (Creating CustomButton component):**
 
-```typescript
-// components/button/CustomButton.tsx (new file/component)
-
+```typescript title=components/button/CustomButton.tsx
+// new file/component
 export const CustomButton = () => {
   return <Button>Not so customisable</Button>
 }
 ```
 
-```typescript
-// components/button/index.tsx
-
+```typescript title=components/button/index.tsx
 export { ButtonLink } from './ButtonLink';
 export { CustomButton } from './CustomButton'; // ADD THIS LINE
 ```

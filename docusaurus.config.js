@@ -60,7 +60,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {
             href: 'https://github.com/rest-comm/docs',
@@ -76,8 +76,20 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Docusaurus Tutorial',
+                label: 'Getting Started',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Web',
+                to: '/docs/category/web---getting-started',
+              },
+              {
+                label: 'Server',
+                to: '/docs/category/server---getting-started',
+              },
+              {
+                label: 'Docusaurus Tutorial',
+                to: '/docs/category/docs---docusaurus-tutorial',
               },
             ],
           },

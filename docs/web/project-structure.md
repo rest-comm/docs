@@ -82,7 +82,7 @@ In Next.js, a **page** is a React Component exported from a `.js`, `.jsx`, `.ts`
 
 **Example**: If you create `pages/about.js` that exports a React component like below, it will be accessible at `/about`.
 
-```typescript
+```typescript title=pages/about.js
 export default function About() {
   return <div>About</div>
 }
@@ -189,8 +189,7 @@ The `theme` directory structure is as follows
 
 Thus, the main theme entrypoint file, `index.ts`, will be like this:
 
-```typescript
-// theme/index.js
+```typescript title=theme/index.js
 import { extendTheme, ThemeConfig } from '@chakra-ui/react';
 
 const config: ThemeConfig = {
@@ -225,8 +224,7 @@ export default theme;
 
 Using the Chakra UI `Button` component as an example, in the `theme/components` directory, create a new file `Button.tsx`:
 
-```typescript
-// theme/components/Button.tsx
+```typescript title=theme/components/Button.tsx
 import { defineStyleConfig } from '@chakra-ui/react';
 
 const Button: defineStyleConfig({
@@ -268,7 +266,7 @@ The basics of Storybook can be learned from https://storybook.js.org/docs/react/
 
 ### Example
 
-```typescript
+```typescript title=FormInput.stories.tsx
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { FormInput } from '../FormInput';
