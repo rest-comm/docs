@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 9
 ---
 
-# Translate your site
+# [Extras] Translate your site
 
 Let's translate `docs/intro.md` to French.
 
