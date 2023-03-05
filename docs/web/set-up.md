@@ -7,6 +7,7 @@ sidebar_position: 1
 You will need to set up the following:
 - Code Editor/IDE
 - GitHub
+- Making a copy of the repo
 
 ## Code Editor/IDE
 
@@ -46,3 +47,32 @@ Perform the following steps:
 ### Learn More
 
 You can learn more about working with GitHub in VSCode [here](https://code.visualstudio.com/docs/sourcecontrol/github).
+
+
+## Making a copy of the repo
+
+### Cloning
+
+In your terminal, run:
+
+```bash
+git clone https://github.com/rest-comm/web.git
+```
+
+### Install Packages
+
+At the root directory of web, download all the required node packages:
+
+```bash
+yarn
+```
+
+### Local Development
+
+Run the local development server:
+
+```bash
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
