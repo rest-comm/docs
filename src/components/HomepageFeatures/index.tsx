@@ -17,7 +17,7 @@ const FeatureList: FeatureItem[] = [
       <>
         The frontend application of rest.com.sg. Built using 
         <b> Next.js</b>, <b>TypeScript</b>, <b>ChakraUI</b>, and <b>Storybook. </b>
-        <Link href="/docs/category/web---getting-started">Get started with <code>WEB</code>.</Link>
+        <Link href="/docs/docs/category/web---getting-started">Get started with <code>WEB</code>.</Link>
       </>
     ),
   },
@@ -28,7 +28,7 @@ const FeatureList: FeatureItem[] = [
       <>
         The backend application of rest.com.sg. Built using 
         <b> Nest.js</b> and <b>TypeScript. </b>
-        <Link href="/docs/category/server---getting-started">Get started with <code>SERVER</code>.</Link>
+        <Link href="/docs/docs/category/server---getting-started">Get started with <code>SERVER</code>.</Link>
       </>
     ),
   },
@@ -38,7 +38,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         The official documentation of rest.com.sg. Built with <b>Docusaurus. </b>
-        <Link href="/docs/category/docs---docusaurus-tutorial">Learn how <code>Docusaurus</code> works.</Link>
+        <Link href="/docs/docs/category/docs---docusaurus-tutorial">Learn how <code>Docusaurus</code> works.</Link>
       </>
     ),
   },

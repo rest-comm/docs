@@ -80,19 +80,19 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/intro',
+                to: '/docs/docs/intro',
               },
               {
                 label: 'Web',
-                to: '/docs/category/web---getting-started',
+                to: '/docs/docs/category/web---getting-started',
               },
               {
                 label: 'Server',
-                to: '/docs/category/server---getting-started',
+                to: '/docs/docs/category/server---getting-started',
               },
               {
                 label: 'Docusaurus Tutorial',
-                to: '/docs/category/docs---docusaurus-tutorial',
+                to: '/docs/docs/category/docs---docusaurus-tutorial',
               },
             ],
           },

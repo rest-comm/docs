@@ -5,7 +5,7 @@ sidebar_position: 1
 # Setting Up Development Environment
 
 :::warning
-Make sure that you have installed Node.js via NVM and installed yarn before proceeding! If not done yet, please follow the instructions [here](/docs/category/getting-started).
+Make sure that you have installed Node.js via NVM and installed yarn before proceeding! If not done yet, please follow the instructions [here](/docs/docs/category/getting-started).
 :::
 
 You will need to set up the following:
