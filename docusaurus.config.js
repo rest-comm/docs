@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'REST COMM Official Documentation',
   tagline: 'Getting started with REST COMM code base! 🚀',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://rest-comm.github.io',
+  baseUrl: '/docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/rest-comm/docs',
+            'https://github.com/rest-comm/docs/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -80,19 +80,19 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/intro',
+                to: '/docs/docs/intro',
               },
               {
                 label: 'Web',
-                to: '/docs/category/web---getting-started',
+                to: '/docs/docs/category/web---getting-started',
               },
               {
                 label: 'Server',
-                to: '/docs/category/server---getting-started',
+                to: '/docs/docs/category/server---getting-started',
               },
               {
                 label: 'Docusaurus Tutorial',
-                to: '/docs/category/docs---docusaurus-tutorial',
+                to: '/docs/docs/category/docs---docusaurus-tutorial',
               },
             ],
           },
