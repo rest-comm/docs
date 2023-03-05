@@ -2,13 +2,22 @@
 sidebar_position: 1
 ---
 
-# Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to REST COMM official documentation.
 
-## Getting Started
+Project-specific documentation may be found in the respective project's Github repository
 
+Use the sidebar to navigate between the different docs
 
+## Contribute
 
-### What you'll need
+Submit a PR to https://github.com/rest-comm/docs
 
+:::info
+
+You can also use the ✏️Edit this page button at the bottom of each docs page!
+
+:::
+
+Built with docusaurus 🦕
