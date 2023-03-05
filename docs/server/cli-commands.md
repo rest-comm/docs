@@ -6,6 +6,12 @@ sidebar_position: 3
 
 This project contains the CLI commands that we be useful in your development of this project.
 
+## Installing Dependencies
+
+```bash
+yarn
+```
+
 ## Running Application
 
 #### Local Development
